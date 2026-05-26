@@ -1,6 +1,9 @@
 
+  
 name: Gerar APK Ndj-lib Reborn
 on: [push]
+uses: joutvhu/publish-android@v2.0.0
+  
 jobs:
   build:
     runs-on: ubuntu-latest
